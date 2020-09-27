@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+   app:
+      image: nginx_hc
+      restart: always
+      networks: 
+        - scaling
+
+
+networks:
+  scaling:
+          #name: scaling
+     driver: bridge

@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"DjangoDb.django_migrations"},{"v":{"$numberInt":"2"},"unique":true,"key":{"id":{"$numberInt":"1"}},"name":"__primary_key__","ns":"DjangoDb.django_migrations"}],"uuid":"538aa4e1cb2c4156a6786551c006b2e9"}

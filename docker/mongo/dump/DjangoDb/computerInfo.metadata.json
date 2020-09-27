@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"DjangoDb.computerInfo"}],"uuid":"2d598b11378042e590194c39605023bf"}

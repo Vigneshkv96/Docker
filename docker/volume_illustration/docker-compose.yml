@@ -1,0 +1,18 @@
+version: '3.4'
+
+services:
+   db:
+      image: mysql:latest
+      environment:
+         MYSQL_ROOT_PASSWORD: password
+      volumes:
+         - dbdata:/var/lib/mysql
+   admin:
+      image: adminer:latest
+      ports:
+         - 8080:8080
+
+volumes:
+   dbdata:
+     driver: local
+
